@@ -20,15 +20,18 @@ class LightningCounter extends React.Component{
             strikes: this.state.strikes + 100
         });
     }
-    
+
     render(){
-        let headerStyle = {
+        let counterStyle = {
             textAlign: "center",
-            color: "white"
+            color: "#66FFFF",
+            fontSize: 50
         }
 
+        let count = this.state.strikes.toLocaleString();
+
         return(
-            <h1 style={headerStyle}>{this.state.strikes}</h1>
+            <h1 style={counterStyle}>{count}</h1>
         );
     }
 }

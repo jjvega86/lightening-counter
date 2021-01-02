@@ -1,10 +1,14 @@
 import React from 'react';
-import './lighteningCounter.css';
 
 class LighteningCounter extends React.Component{
     render(){
+        let headerStyle = {
+            textAlign: "center",
+            color: "white"
+        }
+
         return(
-            <h1>Hello!</h1>
+            <h1 style={headerStyle}>Hello!</h1>
         );
     }
 }

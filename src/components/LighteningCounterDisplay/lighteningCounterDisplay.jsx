@@ -1,5 +1,4 @@
 import React from 'react';
-import '../LighteningCounterDisplay/LighteningCounterDisplay.css'
 import LighteningCounter from '../LighteningCounter/lighteningCounter';
 
 class LighteningCounterDisplay extends React.Component{
@@ -15,7 +14,7 @@ class LighteningCounterDisplay extends React.Component{
         };
 
         return(
-            <div style={divStyle}>
+            <div style={divStyle}> 
                 <LighteningCounter />
             </div>
         )

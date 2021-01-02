@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import LighteningCounterDisplay from './LighteningCounterDisplay/lighteningCounterDisplay';
 
 class App extends React.Component{
     constructor(props){
@@ -10,7 +11,7 @@ class App extends React.Component{
     render(){
         return(
             <div className="container-fluid">
-                <h1>Hello World!</h1>
+                <LighteningCounterDisplay />
             </div>
         )
     }

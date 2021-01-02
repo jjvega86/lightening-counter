@@ -1,7 +1,7 @@
 import React from 'react';
-import LighteningCounter from '../LighteningCounter/lighteningCounter';
+import LightningCounter from '../LightningCounter/lighteningCounter';
 
-class LighteningCounterDisplay extends React.Component{
+class LightningCounterDisplay extends React.Component{
     render(){
         let divStyle = {
             width: 250,
@@ -15,10 +15,10 @@ class LighteningCounterDisplay extends React.Component{
 
         return(
             <div style={divStyle}> 
-                <LighteningCounter />
+                <LightningCounter />
             </div>
         )
     }
 }
 
-export default LighteningCounterDisplay;
+export default LightningCounterDisplay;
